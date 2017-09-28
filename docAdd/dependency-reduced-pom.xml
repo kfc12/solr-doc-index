@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.brandwatch</groupId>
+  <artifactId>docAdd</artifactId>
+  <name>docAdd</name>
+  <version>1.0</version>
+  <url>http://maven.apache.org</url>
+  <repositories>
+    <repository>
+      <releases />
+      <snapshots>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+      <id>public</id>
+      <url>https://nexus.brandwatch.com/content/groups/public/</url>
+    </repository>
+  </repositories>
+  <properties>
+    <bw-repository-version>3.7.1</bw-repository-version>
+    <bw-config-common-version>1.2.0</bw-config-common-version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+</project>
+
